@@ -39,8 +39,8 @@ print("El precio final es: ", precio_final, "\nLa longitudo de la cadena es de: 
 print("El nombre completo es: ",nombre_completo)
 print("Resultado de edad despues de modificarla: " ,edad)
 print ("Resultado de la altura: ", altura)
-print("Nombre convertido en minuscula: ",mNombre_lower)
-print("Nombre convertido en mayuscula: ",miNombre_upper)
+print("Nombre convertido en minuscula: ",mNombre[0] + mNombre_lower[1::])
+print("Nombre convertido en mayuscula: ",mNombre_lower[0] + miNombre_upper[1::])
 
 
 
