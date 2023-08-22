@@ -70,9 +70,9 @@ edad = int(input("Edad: "))
 print("Veamos si tu edad es 18…", edad==18)
 
 #ej 6 media
-num1=input("Ingrese el valor del primer numero:" "\n")
-num2=input("Ingrese el valor del segundo numero:" "\n")
-num3=input("Ingrese el valor del tercer numero:" "\n")
+num1=float(input("Ingrese el valor del primer numero:" "\n"))
+num2=float(input("Ingrese el valor del segundo numero:" "\n"))
+num3=float(input("Ingrese el valor del tercer numero:" "\n"))
 print("La media es de: " ,((num1+num2+num3)/3))
 
 #ej 7 minutos
