@@ -1,4 +1,4 @@
-"""#Ej 1
+#Ej 1
 entrada = True
 x = 1
 print("RESULTADOS:")
@@ -86,7 +86,7 @@ num_input = int(input("Ingrese el numero que quiere buscar: "))
 for i, elemnto in enumerate(accumulator):
     if elemnto == num_input:
         print(f"El elemento {num_input} se encuentra en el índice {i}")
-        break"""
+        break
 #Ej 8
 # Crea un programa que muestre un menú de opciones (por ejemplo, opciones 1, 2, 3). Utiliza un bucle while para permitir al usuario seleccionar 
 # una opción. Si el usuario ingresa "0", utiliza break para salir del bucle (Mostrar un mensaje por cada opción elegida).
